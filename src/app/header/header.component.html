@@ -1,0 +1,24 @@
+<div class="header">
+  <div class="container">
+    <h1 class="logo" routerLink="/">Blog-app</h1>
+    <ul class="nav-link">
+      <li class="nav-link-item " routerLinkActive="active" routerLink="/blog">
+        <a >Liste de Blog</a>
+      </li>
+      <li class="nav-link-item" routerLinkActive="active" routerLink="/add">
+        <a >Ajouter un blog</a>
+      </li>
+      <li class="nav-link-item" routerLinkActive="active" routerLink="contact">
+        <a >Contact</a>
+      </li>
+    </ul>
+    <div class="dropdown">
+      <button type="button" class="btn" (click)="onClickBtn()">Gérer son Blog</button>
+      <ul class="dropdown-menu list-group" [ngClass]="{'open': isOpen}">
+        <li class="list-group-item">
+          <a href="" class="list-group-item-nav"> Ajouter au blog</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
