@@ -1,8 +1,10 @@
 .header {
-  border: 1px solid red;
   background: #008080;
   color: white;
-
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
   .container {
     display: flex;
     justify-content: space-between;
@@ -13,8 +15,8 @@
     max-width: 1400px;
     margin: 20px auto;
     cursor: pointer;
-    position: sticky;
-    top: 0;
+
+
     .nav-link {
       display: flex;
       list-style-type: none;

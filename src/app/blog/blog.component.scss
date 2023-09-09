@@ -2,12 +2,11 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
- 
+
 
   .article-item {
     cursor: pointer;
     width: 300px;
-    border: 1px solid red;
     .article-img {
       position: relative;
       max-width: 300px;
